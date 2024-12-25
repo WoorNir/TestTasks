@@ -30,7 +30,6 @@ function makeRoute($connections, $start, $finish)
         $neighbors = $connections[$current] ?? [];
         $filteredNeighbors = array_filter($neighbors, fn($neighbor) => !in_array($neighbor, $currentRoute));
 
-        echo "Current: $current, Route: " . implode(' -> ', $currentRoute) . "\n";
 
         return array_reduce(
             $filteredNeighbors,
