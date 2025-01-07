@@ -20,7 +20,6 @@ function makeConnections($tree, $acc, $parent)
 
 function makeRoute($connections, $start, $finish)
 {
-    var_dump($connections);
     $iter = function ($current, $route) use (&$iter, $finish, $connections) {
         $currentRoute = array_merge($route, [$current]);
         if ($current === $finish) {
