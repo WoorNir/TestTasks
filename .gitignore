@@ -396,5 +396,6 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+.phpunit.result.cache
 # JetBrains Rider
 *.sln.iml
