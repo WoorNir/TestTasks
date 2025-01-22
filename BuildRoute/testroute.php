@@ -1,6 +1,6 @@
 <?php
 
-require_once '/home/woornir/route/route.php';
+require_once './route.php';
 
 use PHPUnit\Framework\TestCase;
 use function route\Php\itinerary;
