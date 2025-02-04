@@ -31,7 +31,7 @@ itinerary($tree, 'Dubna', 'Kostroma');
 
 itinerary($tree, 'Borisovka', 'Kurchatov');
 // ['Borisovka', 'Belgorod', 'Kursk', 'Kurchatov']
-
+```
 2. **JSONStringify** — Реализация функции для приведения файла к строковому значению с возможностью задать отступ для ключа.
     Пример:
 ```php
@@ -65,3 +65,4 @@ stringify($data, '|-', 2);
 // |-|-|-|-count: 5
 // |-|-}
 // }
+```
