@@ -1,0 +1,17 @@
+{
+    "name": "woornir/test-tasks",
+    "autoload": {
+        "psr-4": {
+            "Woornir\\TestTasks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egor",
+            "email": "woornir@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

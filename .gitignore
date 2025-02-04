@@ -399,3 +399,5 @@ FodyWeavers.xsd
 .phpunit.result.cache
 # JetBrains Rider
 *.sln.iml
+
+/vendor/
